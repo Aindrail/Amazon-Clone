@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import SearchIcon from '@material-ui/icons/Search';
 
 const Header = () => {
   return (
@@ -19,9 +20,9 @@ const Header = () => {
             <HeaderSearch>
                 <HeaderSearchInput type='text' />
 
-                {/* <HeaderSearchIconContainer>
+                <HeaderSearchIconContainer>
                     <SearchIcon />
-                </HeaderSearchIconContainer> */}
+                </HeaderSearchIconContainer>
             </HeaderSearch>
     </Container>
   )
@@ -56,5 +57,8 @@ const HeaderSearch = styled.div`
 
 `
 const HeaderSearchInput = styled.input`
+
+`
+const HeaderSearchIconContainer = styled.div`
 
 `
