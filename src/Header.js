@@ -12,8 +12,10 @@ const Header = () => {
   return (
     <Container>
             <HeaderLogo>
-                
-                    <img src={"https://pngimg.com/uploads/amazon/amazon_PNG11.png"} />
+                <Link to="/">
+                <img src={"https://pngimg.com/uploads/amazon/amazon_PNG11.png"} />
+                </Link>
+                   
             
             </HeaderLogo>
             <HeaderOptionAddress>
